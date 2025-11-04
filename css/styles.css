@@ -140,6 +140,18 @@ img {
 .button:focus {
   background: #404bbf;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .container-advantages {
   display: flex;
   margin: 120px 156px;
@@ -238,20 +250,6 @@ img {
   flex-direction: column;
   border: 1px solid #e7e9fc;
 }
-.page-footer {
-  background: #2e2f42;
-}
-.footer-logo .logo-part {
-  color: #f4f4fd;
-}
-.footer-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #f4f4fd;
-}
-
 .portfolio {
   display: flex;
   padding-top: 120px;
@@ -271,4 +269,25 @@ img {
 .portfolio-item {
   display: flex;
   flex-direction: column;
+}
+
+.page-footer {
+  background: #2e2f42;
+}
+.footer-logo .logo-part {
+  color: #f4f4fd;
+}
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  max-width: 264px;
+}
+.container-footer {
+  display: flex;
+  padding: 100px 0 100px 156px;
+  flex-direction: column;
+  gap: 16px;
 }
