@@ -207,7 +207,7 @@ img {
   margin: 0 auto;
 }
 .team-items {
-  display: flex;
+  /*display: flex;*/
   justify-content: space-between;
   width: calc((100% - 72px) / 4);
 }
@@ -284,7 +284,7 @@ img {
   margin-bottom: 8px;
 }
 .portfolio-item {
-  display: flex;
+  /*display: flex;*/
   flex-direction: column;
 }
 
@@ -298,7 +298,6 @@ img {
 }
 .footer-logo .logo-part {
   color: #f4f4fd;
-  display: inline-block;
 }
 .footer-text {
   font-weight: 400;
