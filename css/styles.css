@@ -198,6 +198,16 @@ img {
   padding: 120px 0;
   justify-content: center;
 }
+.icon {
+  display: flex;
+  justify-content: center;
+  width: 264px;
+  height: 112px;
+  gap: 8px;
+  background-color: #f4f4fd;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+}
 .advantages-list {
   max-width: 1128px;
   display: flex;
