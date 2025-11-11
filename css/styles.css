@@ -200,7 +200,7 @@ img {
 }
 .icon {
   display: flex;
-  justify-content: center;
+  align-items: center;
   width: 264px;
   height: 112px;
   gap: 8px;
@@ -232,7 +232,7 @@ img {
 .team {
   display: flex;
   padding-top: 120px;
-  align-items: center;
+  justify-content: center;
   margin-bottom: 72px;
 }
 .team-title,
