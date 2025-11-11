@@ -201,6 +201,7 @@ img {
 .icon {
   display: flex;
   align-items: center;
+  justify-content: center;
   width: 264px;
   height: 112px;
   gap: 8px;
