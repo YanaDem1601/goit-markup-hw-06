@@ -272,6 +272,10 @@ img {
   height: 40px;
   border-radius: 50%;
 }
+.social-item:hover {
+  background-color: #404bbf;
+  border-color: #404bbf;
+}
 
 .social-link {
   justify-content: center;
