@@ -272,6 +272,9 @@ img {
   height: 40px;
   border-radius: 50%;
 }
+.social-link {
+  color: #fff;
+}
 .name {
   display: flex;
   padding: 32px 0;
