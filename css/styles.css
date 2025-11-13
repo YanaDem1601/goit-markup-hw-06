@@ -126,6 +126,7 @@ img {
   background-color: #2e2f42;
   padding: 188px 0;
   min-width: 1440px;
+  /*max-width: 1440px;*/
   height: 600px;
   background-repeat: no-repeat;
   background-position: center;
@@ -145,7 +146,7 @@ img {
   justify-content: center;
   gap: 48px;
   margin: 0 auto;
-  min-width: 1440px;
+  max-width: 1440px;
 }
 
 .hero-image {
