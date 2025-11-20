@@ -518,7 +518,7 @@ img {
 }
 .close:hover,
 .close:focus {
-  stroke: #ffffff;
+  fill: #ffffff;
 }
 
 .text-modal {
