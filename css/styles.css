@@ -640,6 +640,5 @@ img {
   background-color: #4d5ae5;
 }
 .marker:hover {
-  position: absolute;
   stroke: #ffffff;
 }
