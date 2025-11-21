@@ -638,7 +638,7 @@ img {
   margin-right: 8px;
   align-items: center;
   justify-content: center;
-  stroke: red;
+  fill: transparent;
 }
 .policy-checkbox:checked + .policy-lavbel > .custom-checkbox {
   background-color: #4d5ae5;
