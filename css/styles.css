@@ -641,5 +641,5 @@ img {
 }
 .marker:hover {
   position: absolute;
-  fill: #ffffff;
+  stroke: #ffffff;
 }
