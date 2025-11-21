@@ -644,7 +644,5 @@ img {
 .policy-checkbox:checked + .policy-lavbel > .custom-checkbox {
   background-color: #4d5ae5;
   stroke: #ffffff;
-  }
-/* .marker:hover {
-  fill: #ffffff; */
+  fill: #ffffff;
 }
