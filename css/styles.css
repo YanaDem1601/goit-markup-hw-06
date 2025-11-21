@@ -639,11 +639,12 @@ img {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  transition: background-color 250ms ease, stroke 250ms ease;
 }
 .policy-checkbox:checked + .policy-lavbel > .custom-checkbox {
   background-color: #4d5ae5;
   stroke: #ffffff;
 }
-/* .marker:hover {
-  fill: #ffffff; */
+.marker:hover {
+  fill: #ffffff;
 }
