@@ -615,10 +615,10 @@ img {
   height: 56px;
   background: #4d5ae5;
   cursor: pointer;
-  margin-top: 24px;
-  /* display: flex;
+  margin: 24px 96px 0 96px;
+  display: flex;
   justify-content: center;
-  align-items: center; */
+  align-items: center;
 }
 .policy-lavbel {
   font-weight: 400;
