@@ -628,6 +628,9 @@ img {
   margin-bottom: 8px;
 }
 
+.form-field-wrapper-com {
+  margin-bottom: 16px;
+}
 .label-field {
   display: block;
   font-weight: 400;
