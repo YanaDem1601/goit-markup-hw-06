@@ -61,8 +61,8 @@ img {
 /* .header-nav {
   display: flex;
   align-items: center;
-} */
-.nav-list {
+/* } */
+/* .nav-list {
   display: flex;
   align-items: center;
   gap: 40px;
@@ -174,7 +174,7 @@ img {
 .button:hover,
 .button:focus {
   background: #404bbf;
-}
+} */
 .sec_two {
   padding: 120px 0;
 }
