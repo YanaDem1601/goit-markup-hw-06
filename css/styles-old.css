@@ -190,7 +190,7 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 } */
-.advantages {
+/* .advantages {
   display: flex;
   justify-content: center;
 }
@@ -226,7 +226,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-}
+} */
 .team {
   display: flex;
   padding-top: 120px;
@@ -330,10 +330,10 @@ img {
   color: #434455;
 }
 
-.sec_three {
+/* .sec_three {
   background: #f4f4fd;
   padding: 120px 0;
-}
+} */
 .sec_four {
   padding: 120px 0;
 }
