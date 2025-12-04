@@ -227,7 +227,7 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 } */
-.team {
+/* .team {
   display: flex;
   padding-top: 120px;
   justify-content: center;
@@ -301,7 +301,7 @@ img {
   display: flex;
   padding: 32px 0;
   flex-direction: column;
-}
+} */
 .team,
 .portfolio {
   font-size: 36px;
