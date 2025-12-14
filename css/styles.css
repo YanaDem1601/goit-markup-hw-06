@@ -982,3 +982,8 @@ button {
   border: none;
   margin-bottom: 96px;
 }
+
+.arrow-icon {
+  fill: #fff;
+  margin-left: 16px;
+}
