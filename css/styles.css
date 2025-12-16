@@ -870,10 +870,13 @@ button {
   background-color: #2e2f42;
 }
 
-/* .container-footer {
-  display: flex; 
-  align-items: baseline; 
-}*/
+.container-f {
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+  text-align: center;
+  align-items: center;
+}
 
 .footer-one {
   display: flex;
@@ -898,7 +901,7 @@ button {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 288px;
-  justify-content: flex-start;
+  text-align: left;
 }
 .social-title {
   font-weight: 500;
@@ -920,17 +923,16 @@ button {
   gap: 16px;
 }
 
+.social-link.foot:hover,
+.social-link.foot:focus {
+  background-color: #31d0aa;
+  border-color: #31d0aa;
+}
+
 .footer-subscribe {
   display: flex;
   flex-direction: column;
-  margin-left: auto;
   align-items: center;
-  /* width: 453px;
-  height: 80px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em; */
   color: #fff;
 }
 
@@ -964,6 +966,13 @@ button {
   color: #ffffff;
 }
 
+.subscribe-field:hover,
+.subscribe-field:focus {
+  border-color: #31d0aa;
+  border-radius: 4px;
+  outline: none;
+}
+
 .subscribe-button {
   display: flex;
   border-radius: 4px;
@@ -986,4 +995,52 @@ button {
 .arrow-icon {
   fill: #fff;
   margin-left: 16px;
+}
+
+.subscribe-button:hover,
+.subscribe-button:focus {
+  background: #31d0aa;
+}
+
+@media screen and (min-width: 768px) {
+  /* .page-footer {
+    max-width: 768px;
+  } */
+
+  .container-f {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: left;
+    max-width: 584px;
+    margin: 0 auto;
+    gap: 72px 24px;
+    padding: 96px 0 0 0;
+  }
+
+  .footer-one {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-two {
+    align-items: flex-start;
+    margin-bottom: 0;
+  }
+
+  .footer-subscribe {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 0;
+  }
+
+  .subscribe-form {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: flex-start;
+  }
 }
