@@ -59,7 +59,7 @@ button {
 @media screen and (min-width: 1024px) {
   .container {
     max-width: 1158px;
-    padding: 0 15px;
+    padding: 0 0 0 156px;
   }
 }
 
@@ -535,15 +535,16 @@ button {
 }
 
 @media screen and (min-width: 1024px) {
-  /* .container {
+  .container {
     max-width: 1440px;
-    margin: 0 auto;
-    padding: 0 156px;
-  } */
+    margin: 0;
+    /* padding: 0 156px; */
+  }
 
   .sec_two {
-    min-width: 1128px;
+    min-width: 1440px;
   }
+
   .advantages {
     display: flex;
     justify-content: center;
@@ -562,6 +563,7 @@ button {
   }
   .advantages-list {
     max-width: 1440px;
+    min-width: 264px;
     display: flex;
     gap: 24px;
   }
@@ -585,7 +587,9 @@ button {
 
 .sec_three {
   background-color: #f4f4fd;
+  width: 100%;
   padding: 96px 0;
+  display: block;
 }
 
 .team {
@@ -723,10 +727,16 @@ button {
 
 @media screen and (min-width: 1024px) {
   /* .container {
-    max-width: 1440px;
+    width: 100%;
     margin: 0 auto;
     padding: 0 156px;
+    display: block;
   } */
+
+  .ourteam {
+    background-color: #f4f4fd;
+    width: 100%;
+  }
 
   .team {
     display: flex;
@@ -1080,8 +1090,8 @@ button {
     flex-wrap: wrap;
     text-align: left;
     min-width: 1440px;
-    margin: 0 77px;
-    /* padding: 0 77px; */
+    margin: 0 156px;
+    padding: 0 77px;
     align-items: flex-start;
   }
 
@@ -1354,9 +1364,7 @@ button {
   border: 1px solid rgba(46, 47, 66, 0.4);
   display: inline-flex;
   cursor: pointer;
-  /* margin-right: 8px; */
   margin: 7.5px 8px 7.5px 0;
-  /* align-items: baseline; */
   align-content: center;
   justify-content: center;
   fill: transparent;
@@ -1376,4 +1384,50 @@ button {
   text-decoration-skip-ink: none;
   /* margin-left: 24px; */
   color: #4d5ae5;
+}
+
+@media screen and (min-width: 768px) {
+  .backdrop {
+    min-height: 584px;
+  }
+
+  .modal {
+    width: 408px;
+    min-height: 584px;
+    margin-bottom: 8px;
+    padding: 72px 24px 24px 24px;
+  }
+
+  .text-field {
+    width: 360px;
+    padding-left: 38px;
+  }
+
+  .text-field:hover,
+  .text-field:focus {
+    width: 360px;
+    height: 40px;
+    padding-left: 38px;
+  }
+
+  .button-modal {
+    margin: 24px 94px 0 94px;
+  }
+
+  .policy-lavbel {
+    font-weight: 360;
+  }
+
+  .custom-checkbox {
+    margin-right: 8px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .modal {
+    /* width: 408px; */
+    min-height: 584px;
+    margin-bottom: 8px;
+    padding: 72px 24px 24px 24px;
+  }
 }
