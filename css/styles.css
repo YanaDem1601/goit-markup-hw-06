@@ -788,7 +788,7 @@ button {
 .portfolio {
   display: flex;
   justify-content: center;
-  margin-bottom: 36px;
+  margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -870,9 +870,6 @@ button {
 }
 
 @media screen and (min-width: 768px) {
-  .portfolio {
-    margin-bottom: 72px;
-  }
 
   .portfolio-list {
     flex-wrap: wrap;
