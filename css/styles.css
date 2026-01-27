@@ -417,11 +417,15 @@ button {
   .sec_one {
     padding: 112px 0;
     /* min-width: 768px; */
-    max-width: 768px;
-    height: 436px;
+    /* max-width: 768px;
+    height: 436px; */
     background-image:
       linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
       url(../images/Dark-bg-tab.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
   }
 
   @media screen and (min-resolution: 192dpi) {
@@ -456,6 +460,10 @@ button {
     background-image:
       linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
       url(../images/people-office1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
   }
 
   @media screen and (min-resolution: 192dpi) {
@@ -1082,6 +1090,9 @@ button {
     margin: 0;
   }
 
+  .subscribe-field {
+    width: 264px;
+  }
   .subscribe-form {
     display: flex;
     flex-direction: row;
