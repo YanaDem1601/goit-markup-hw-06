@@ -924,6 +924,7 @@ button {
   .portfolio-item {
     width: calc((100% - 72px) / 3);
     max-width: 360px;
+    box-shadow: none;
   }
 }
 
