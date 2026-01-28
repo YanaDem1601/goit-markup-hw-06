@@ -50,8 +50,8 @@ button {
   padding-right: 16px;
   margin-left: auto;
   margin-right: auto;
-  /* margin: 0 auto;
-  padding: 0 16px; */
+  /* margin: 0 auto;*/
+  padding: 0 16px;
 }
 
 @media screen and (min-width: 768px) {
@@ -63,8 +63,9 @@ button {
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
+    /* padding-left: 15px;
+    padding-right: 15px; */
+    padding: 0 15px;
     /* max-width: 1158px;
     padding: 0 0 0 156px; */
   }
@@ -938,12 +939,12 @@ button {
   gap: 72px;
   text-align: center;
   align-items: center;
+  padding: 96px 0;
 }
 
 .footer-one {
   display: flex;
   flex-direction: column;
-  padding: 96px 0 72px 0;
   align-items: center;
 }
 
@@ -1050,7 +1051,7 @@ button {
   justify-content: center;
   align-items: center;
   border: none;
-  margin-bottom: 96px;
+  /* margin-bottom: 96px; */
 }
 
 .arrow-icon {
@@ -1076,7 +1077,7 @@ button {
     max-width: 584px;
     margin: 0 auto;
     gap: 72px 24px;
-    padding: 96px 0 0 0;
+    padding: 96px 0;
   }
 
   .footer-one {
@@ -1111,7 +1112,7 @@ button {
 
 @media screen and (min-width: 1158px) {
   .page-footer {
-    padding: 100px 0;
+    padding: 96px 0;
   }
 
   /* .container {
@@ -1129,14 +1130,14 @@ button {
     max-width: 1158px;
     align-items: flex-start;
     /* margin: 0 156px; */
-    /* padding: 0 77px; */
+    padding-top: 0;
     /* justify-content: center; */
   }
 
-  /* .container {
-    display: flex;
-    align-items: baseline;
-  } */
+  .container {
+    /* max-width: 1158px; */
+    padding: 0 15px;
+  }
 
   .footer-one {
     margin-right: 120px;
