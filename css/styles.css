@@ -1022,12 +1022,18 @@ button {
   width: 288px;
   height: 40px;
   background-color: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 8px 16px;
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   color: #ffffff;
+}
+
+.subscribe-field::placeholder {
+   color: #ffffff;
+  opacity: 0.6;
 }
 
 .subscribe-field:hover,
@@ -1053,7 +1059,7 @@ button {
   justify-content: center;
   align-items: center;
   border: none;
-  /* margin-bottom: 96px; */
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .arrow-icon {
