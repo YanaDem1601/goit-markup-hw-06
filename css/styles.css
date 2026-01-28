@@ -304,15 +304,16 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 48px;
+  font-weight: 500;
 }
 
 .mm-contacts-link {
   color: #434455;
-}
+  }
 
 .mm-contacts-link-tel {
   color: #4d5ae5;
-}
+  }
 
 .social-list-mm {
   display: flex;
