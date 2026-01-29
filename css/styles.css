@@ -953,7 +953,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  max-width: 288px;
+  max-width: 264px;
   text-align: left;
 }
 .social-title {
@@ -968,12 +968,13 @@ button {
 .footer-two {
   display: flex;
   flex-direction: column;
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
   align-items: center;
 }
 
 .social-list.foot {
   gap: 16px;
+  margin: 0;
 }
 
 .social-link.foot:hover,
@@ -1075,6 +1076,7 @@ button {
     margin: 0 auto;
     gap: 72px 24px;
     padding: 96px 0;
+    align-items: flex-start;
   }
 
   .footer-one {
