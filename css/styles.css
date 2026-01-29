@@ -739,7 +739,7 @@ button {
   .team-list {
     flex-wrap: wrap;
     flex-direction: row;
-    min-width: 768px;
+    min-width: 100%;
     gap: 64px 24px;
     justify-content: center;
   }
@@ -771,7 +771,7 @@ button {
 
   .team-list {
     display: flex;
-    min-width: 1158px;
+    min-width: 100%;
     gap: 24px;
     padding-bottom: 120px;
   }
